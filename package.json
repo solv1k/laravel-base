@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build-Modal": "cd nova-components/Modal && npm run dev",
+        "build-Modal-prod": "cd nova-components/Modal && npm run prod",
+        "build-modal": "cd nova-components/Modal && npm run dev",
+        "build-modal-prod": "cd nova-components/Modal && npm run prod"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "vite": "^4.0.0"
+    }
+}
